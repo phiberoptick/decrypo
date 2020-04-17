@@ -1,6 +1,19 @@
 
+<a name="0.3.8"></a>
+## [0.3.8](https://github.com/ajdnik/decrypo/compare/0.3.7...0.3.8) (2020-04-17)
+
+### Chore
+
+* debug github actions
+
+
 <a name="0.3.7"></a>
 ## [0.3.7](https://github.com/ajdnik/decrypo/compare/0.3.6...0.3.7) (2020-04-17)
+
+### Chore
+
+* version bumped
+* updated changelog
 
 ### Fix
 
