@@ -1,9 +1,19 @@
 
+<a name="0.3.11"></a>
+## [0.3.11](https://github.com/ajdnik/decrypo/compare/0.3.10...0.3.11) (2020-04-18)
+
+### Chore
+
+* grasping at straws
+
+
 <a name="0.3.10"></a>
 ## [0.3.10](https://github.com/ajdnik/decrypo/compare/0.3.9...0.3.10) (2020-04-17)
 
 ### Chore
 
+* version bumped
+* updated changelog
 * gcc version printout
 
 
