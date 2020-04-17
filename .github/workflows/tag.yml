@@ -86,9 +86,10 @@ jobs:
           export TIME=`date +%FT%T%z`
           export NAME=$(echo "${OS}_${ARCH}" | tr '[:upper:]' '[:lower:]')
           mkdir -p "dist/${NAME}"
+          gcc -v
           which gcc
           go env
-          CGO_ENABLED=1 go build -x -ldflags "-s -w -X github.com/ajdnik/decrypo/build.Version=${TAG} -X github.com/ajdnik/decrypo/build.Datetime=${TIME}" -o "dist/${NAME}/decrypo"
+          CGO_ENABLED=1 go build -ldflags "-s -w -X github.com/ajdnik/decrypo/build.Version=${TAG} -X github.com/ajdnik/decrypo/build.Datetime=${TIME}" -o "dist/${NAME}/decrypo"
         shell: bash
         if: runner.os == 'Windows'
         env:
