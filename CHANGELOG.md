@@ -1,6 +1,15 @@
 
+<a name="0.3.5"></a>
+## [0.3.5](https://github.com/ajdnik/decrypo/compare/0.3.4...0.3.5) (0001-01-01)
+
+
 <a name="0.3.4"></a>
 ## [0.3.4](https://github.com/ajdnik/decrypo/compare/0.3.3...0.3.4) (2020-04-17)
+
+### Chore
+
+* version bumped
+* updated changelog
 
 ### Feat
 
