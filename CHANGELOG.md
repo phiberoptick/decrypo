@@ -1,6 +1,19 @@
 
+<a name="0.3.7"></a>
+## [0.3.7](https://github.com/ajdnik/decrypo/compare/0.3.6...0.3.7) (2020-04-17)
+
+### Fix
+
+* install 32bit mingw
+
+
 <a name="0.3.6"></a>
 ## [0.3.6](https://github.com/ajdnik/decrypo/compare/0.3.5...0.3.6) (2020-04-17)
+
+### Chore
+
+* version bumped
+* updated changelog
 
 ### Fix
 
