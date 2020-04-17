@@ -1,6 +1,19 @@
 
+<a name="0.3.6"></a>
+## [0.3.6](https://github.com/ajdnik/decrypo/compare/0.3.5...0.3.6) (2020-04-17)
+
+### Fix
+
+* missing GOARCH variable
+
+
 <a name="0.3.5"></a>
-## [0.3.5](https://github.com/ajdnik/decrypo/compare/0.3.4...0.3.5) (0001-01-01)
+## [0.3.5](https://github.com/ajdnik/decrypo/compare/0.3.4...0.3.5) (2020-04-17)
+
+### Chore
+
+* version bumped
+* updated changelog
 
 
 <a name="0.3.4"></a>
