@@ -1,9 +1,19 @@
 
+<a name="0.3.9"></a>
+## [0.3.9](https://github.com/ajdnik/decrypo/compare/0.3.8...0.3.9) (2020-04-17)
+
+### Chore
+
+* go environment printout
+
+
 <a name="0.3.8"></a>
 ## [0.3.8](https://github.com/ajdnik/decrypo/compare/0.3.7...0.3.8) (2020-04-17)
 
 ### Chore
 
+* version bumped
+* updated changelog
 * debug github actions
 
 
