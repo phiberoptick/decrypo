@@ -1,9 +1,19 @@
 
+<a name="0.3.4"></a>
+## [0.3.4](https://github.com/ajdnik/decrypo/compare/0.3.3...0.3.4) (2020-04-17)
+
+### Feat
+
+* 32bit compilation
+
+
 <a name="0.3.3"></a>
 ## [0.3.3](https://github.com/ajdnik/decrypo/compare/0.3.2...0.3.3) (2020-04-17)
 
 ### Chore
 
+* version bumped
+* updated changelog
 * missing extension test
 * untested code paths
 * clip repository tests
