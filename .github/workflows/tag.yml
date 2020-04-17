@@ -55,13 +55,14 @@ jobs:
           export TIME=`date +%FT%T%z`
           export NAME=$(echo "${OS}_${ARCH}" | tr '[:upper:]' '[:lower:]')
           mkdir -p "dist/${NAME}"
-          CGO_ENABLED=1 go build -ldflags "-s -w -X github.com/ajdnik/decrypo/build.Version=${TAG} -X github.com/ajdnik/decrypo/build.Datetime=${TIME}" -o "dist/${NAME}/decrypo"
+          CGO_ENABLED=1 go build -a -ldflags "-s -w -X github.com/ajdnik/decrypo/build.Version=${TAG} -X github.com/ajdnik/decrypo/build.Datetime=${TIME}" -o "dist/${NAME}/decrypo"
         shell: bash
         if: runner.os == 'Windows'
         env:
           TAG: ${{ github.ref }}
           OS: ${{ runner.os }}
-          ARCH: 386
+          ARCH: x86
+          GOARCH: 386
       - name: Archive Artifacts
         run: |
           cd $GOPATH/src/github.com/$GITHUB_REPOSITORY
@@ -101,7 +102,7 @@ jobs:
         if: runner.os == 'Windows'
         env:
           OS: ${{ runner.os }}
-          ARCH: 386
+          ARCH: x86
       - name: Upload Artifacts
         uses: actions/upload-artifact@v1
         with:
